@@ -11,7 +11,7 @@ HEY! How are you? Here's my cool project! Now with a couple of bugfixes!
 * Keypad 0(Requires Numlock):Reset position and rotation
 * Keypad -:Reset position
 * W/A/S/D:Manipulate item on X, Z axis, up left down and right
-* Shift, Ctrl:Manipulate item on Y axis, up and down
+* Tab, Shift:Manipulate item on Y axis, up and down
 ### Rotation
 * Keypad 0(Requires Numlock):Reset position and rotation
 * Keypad +:Reset rotation

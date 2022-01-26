@@ -50,20 +50,12 @@ public class Player : MonoBehaviour
         {
             transform.position += Vector3.right * Time.deltaTime * 8f * Speed;
         }
-        //Z+ [Z+] Z- [Z-]
-        if (Input.GetKey(KeyCode.RightShift))
+        //Z+ Z-
+        if (Input.GetKey(KeyCode.Tab))
         {
             transform.position += Vector3.up * Time.deltaTime * 4f * Speed;
         }
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            transform.position += Vector3.up * Time.deltaTime * 4f * Speed;
-        }
-        if (Input.GetKey(KeyCode.RightControl))
-        {
-            transform.position += Vector3.down * Time.deltaTime * 4f * Speed;
-        }
-        if (Input.GetKey(KeyCode.LeftControl))
+        if (Input.GetKey(KeyCode.RightShift) || Input.GetKey(KeyCode.LeftShift))
         {
             transform.position += Vector3.down * Time.deltaTime * 4f * Speed;
         }
