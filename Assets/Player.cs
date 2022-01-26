@@ -29,7 +29,7 @@ public class Player : MonoBehaviour
         }
 
         //Cancel control if Alt or space is held down
-        if (Input.GetKey(KeyCode.RightAlt) || Input.GetKey(KeyCode.LeftAlt) || Input.GetKey(KeyCode.Space))
+        if ((Input.GetKey(KeyCode.Z)) || (Input.GetKey(KeyCode.Space)))
         {
             return;
         }

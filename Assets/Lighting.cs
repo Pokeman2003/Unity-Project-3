@@ -31,7 +31,7 @@ public class Lighting : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Space)) // Holding space activates this.
         {
-            if (Input.GetKey(KeyCode.RightAlt) || Input.GetKey(KeyCode.LeftAlt)) // And you've terminated it. Great.
+            if (Input.GetKey(KeyCode.X)) // And you've terminated it. Great.
             {
                 return;
             }

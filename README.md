@@ -1,4 +1,4 @@
-HEY! How are you? Here's my cool project!
+HEY! How are you? Here's my cool project! Now with a couple of bugfixes!
 
 [Have fun with my test.](http://pokeman2003.github.io/Unity-Project-3/Build/index.html)
 
@@ -6,7 +6,7 @@ HEY! How are you? Here's my cool project!
 ## General
 * By default, everything controls the cube.
 * Holding space will mainpulate the lighting
-* Holding either alt will manipulate the camera
+* Holding Z will manipulate the camera
 ### Movement
 * Keypad 0(Requires Numlock):Reset position and rotation
 * Keypad -:Reset position
@@ -17,6 +17,6 @@ HEY! How are you? Here's my cool project!
 * Keypad +:Reset rotation
 * Arrow Keys:Manipulate rotation on X Y axis, up down left right
 ### Speed
-* Keypad Enter(Broken):Reset speed
+* Keypad Enter:Reset speed
 * -:Decrease speed
 * =:Increase speed
